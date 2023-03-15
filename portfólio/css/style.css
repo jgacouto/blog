@@ -1,0 +1,136 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+body{
+	background: rgb(284, 246, 221) url(../images/background.jpg) center top repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	
+}
+
+a, img{
+	text-decoration: none;
+	border: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.principal{
+	width: 960px;
+	color: #444;
+	border: solid 5px;
+	border-radius: 20px;
+	margin: 0 auto;
+	font-family: sans-serif;
+
+}
+
+header{
+	background-color: red;
+	border-radius: 18px 18px 0px 0px;
+	height: 90px;
+}
+
+.logo-cabecalho{
+	display: inline-block;
+	font-size: 50px;
+	font-style: italic;
+	padding: 20px 0 0 415px;
+	color: white;
+
+}
+
+.pesquisa{
+	padding-top: 13px;
+	margin-left: 400px;
+	display: inline-block;
+}
+
+.menu{
+	background-color: rgb(184, 184, 184);
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: block;
+	color: white;
+	padding: 13px 20px;
+}
+
+.menu ul li a:hover{
+	background-color: gray;
+
+}
+
+.corpo{
+	position: relative;
+	overflow: hidden;
+}
+
+.artigos{
+	float: left;
+	background-color: white;
+}
+
+.artigos, .artigos:before{
+	width: 70%;
+}
+
+.artigos:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom:0;
+	background-color: white;
+	z-index: -1;
+	content: "";
+}
+
+.espacamento{
+	padding: 20px;
+}
+
+.barralateral{
+	float:right;
+}
+
+.barralateral, .barralateral:before{
+	width: 30%;
+}
+
+.barralateral:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: rgb(167, 204, 209);
+} 
+
+footer{
+	padding: 20px;
+	text-align: center;
+	background-color: rgb(0, 132, 255);
+	border-radius: 0px 0px 18px 18px;
+
+}
+
+
+
+
